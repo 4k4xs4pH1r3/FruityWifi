@@ -75,5 +75,11 @@ user: admin<br>
 pass: admin
 <br><br>
 
+
+### Install all the modules manually
+
+https://localhost:8443/page_modules.php?show-deb
+
+
 ### More information
 [Wiki](https://github.com/xtr4nge/FruityWifi/wiki)
