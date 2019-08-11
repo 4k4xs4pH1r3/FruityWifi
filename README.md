@@ -76,9 +76,11 @@ pass: admin
 <br><br>
 
 
-### Install all the modules manually
+### Install and Activate all the modules manually
 
-https://localhost:8443/page_modules.php?show-deb
+1. https://localhost:8443/page_modules.php?show-deb
+
+2. https://localhost:8443/page_modules.php?show
 
 
 ### More information
