@@ -31,7 +31,7 @@ Use this installation script:
 
 ### x86/x64 Version
 
-    apt install neofetch -y && cd /usr/share/ && wget https://github.com/xtr4nge/FruityWifi/archive/master.zip && unzip master.zip && neofetch && cd FruityWifi-master && python install-modules.py && screenfetch && ./install-FruityWiFi.sh
+    apt install neofetch screenfetch -y && cd /usr/share/ && wget https://github.com/xtr4nge/FruityWifi/archive/master.zip && unzip master.zip && neofetch && cd FruityWifi-master && python install-modules.py && screenfetch && ./install-FruityWiFi.sh
 
 Go to **http://localhost:8000** (for http) <br>
 Go to **https://localhost:8443** (for https) 
