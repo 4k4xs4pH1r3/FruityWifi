@@ -29,9 +29,31 @@ Within the available modules you can find URLsnarf, DNSspoof, Kismet, mdk3, ngre
 
 Use this installation script:
 
-### x86/x64 Version
+### Add Kali Repo for Debian
+
+On a standard, clean install of Debian Distro Based Linux, you should have the following entry present in /etc/apt/sources.list:
+
+      nano /etc/apt/sources.list
+       
+For Parrot Security add here
+
+      nano /etc/apt/sources.list.d/parrot.list
+       
+deb http://http.kali.org/kali kali-rolling main contrib non-free
+deb-src http://http.kali.org/kali kali-rolling main contrib non-free
+       
+       sudo apt-key adv --recv-keys --keyserver keys.gnupg.net 7D8D0BF6
+       
+
+### Integrate Kali with Debian
+
+       apt-get clean && apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get install python-pil:i386 -y
+
+
+### Install FruityWiFi x86/x64 Version
 
     apt install neofetch screenfetch -y && cd /usr/share/ && wget https://github.com/xtr4nge/FruityWifi/archive/master.zip && unzip master.zip && neofetch && cd FruityWifi-master && python install-modules.py && screenfetch && ./install-FruityWiFi.sh
+    
 
 Go to **http://localhost:8000** (for http) <br>
 Go to **https://localhost:8443** (for https) 
