@@ -45,7 +45,7 @@ deb-src http://http.kali.org/kali kali-rolling main contrib non-free
 
        apt-get clean && apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get install python-pil:i386 -y && apt autoremove -y
        
-### Instal mitmf & python
+### Install mitmf & python
 
       sudo apt-get install python-pip python3-pip python-dev python-setuptools libpcap0.8-dev libnetfilter-queue-dev libssl-dev libjpeg-dev libxml2-dev libxslt1-dev libcapstone3 libcapstone-dev libffi-dev file -y && pip install virtualenvwrapper
 
