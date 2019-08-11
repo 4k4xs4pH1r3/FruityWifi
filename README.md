@@ -48,6 +48,10 @@ deb-src http://http.kali.org/kali kali-rolling main contrib non-free
 ### Integrate Kali with Debian
 
        apt-get clean && apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get install python-pil:i386 -y
+       
+### Instal mitmf
+
+https://github.com/byt3bl33d3r/MITMf/wiki/Installation
 
 
 ### Install FruityWiFi x86/x64 Version
