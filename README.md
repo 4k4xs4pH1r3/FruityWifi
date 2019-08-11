@@ -47,24 +47,6 @@ deb-src http://http.kali.org/kali kali-rolling main contrib non-free
        
 ### Install mitmf & python
 
-      sudo apt-get install python-pip python3-pip python-dev python-setuptools libpcap0.8-dev libnetfilter-queue-dev libssl-dev libjpeg-dev libxml2-dev libxslt1-dev libcapstone3 libcapstone-dev libffi-dev file -y && pip install virtualenvwrapper
-
-#
-
-Edit your .bashrc or .zshrc file to source the virtualenvwrapper.sh script:, adding this line ate the of the file
-#
-source /usr/local/bin/virtualenvwrapper.sh
-#
-      cd /root && nano .basrc
-
-The location of this script may vary depending on your Linux distro.
-#
-
-Restart your terminal or run:
-
-      source /usr/bin/virtualenvwrapper.sh
-      
-
 https://github.com/4k4xs4pH1r3/FruityWifi/wiki
 
 
