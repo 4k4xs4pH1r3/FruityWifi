@@ -65,7 +65,7 @@ Restart your terminal or run:
       source /usr/bin/virtualenvwrapper.sh
       
 
-https://github.com/byt3bl33d3r/MITMf/wiki/Installation
+https://github.com/4k4xs4pH1r3/FruityWifi/wiki
 
 
 ### Install FruityWiFi x86/x64 Version
