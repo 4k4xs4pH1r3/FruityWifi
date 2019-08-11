@@ -27,17 +27,11 @@ Within the available modules you can find URLsnarf, DNSspoof, Kismet, mdk3, ngre
 
 ## Install
 
-Using the installation script all the required dependencies, scripts and setup can be installed.
-
-On **Buster** based systems use: install-FruityWiFi.sh
-<br><br>
+Use this installation script:
 
 ### x86/x64 Version
 
-- You need Debian (or based) installed (or a Live CD version) to use this script.
-- Download the zip file from https://github.com/xtr4nge/FruityWifi/archive/master.zip
-- Unzip the file and run **install-FruityWiFi.sh** (This script will install all the dependencies and setups)
-- Done. 
+    apt install neofetch -y && cd /usr/share/ && wget https://github.com/xtr4nge/FruityWifi/archive/master.zip && unzip master.zip && neofetch && cd FruityWifi-master && python install-modules.py && screenfetch && ./install-FruityWiFi.sh
 
 Go to **http://localhost:8000** (for http) <br>
 Go to **https://localhost:8443** (for https) 
