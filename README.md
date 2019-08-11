@@ -1,10 +1,6 @@
 # FruityWiFi
 ###### Wireless network auditing tool http://www.fruitywifi.com/
 
-## Important Note (Debian Buster): 
-Please use Use **Debian Buster** based systems. The Installer has been updated for resolving issues with old version. 
-<br><br>
-
 FruityWiFi is an open source tool to audit wireless networks. It allows the user to deploy advanced attacks by directly using the web interface or by sending messages to it. 
 
 Initialy the application was created to be used with the Raspberry-Pi, but it can be installed on any Debian based system. 
@@ -25,11 +21,11 @@ Within the available modules you can find URLsnarf, DNSspoof, Kismet, mdk3, ngre
 
 **Note**: New modules are being developed continuously and can be installed from the modules page.
 
-## Install
+## For Install in any Debian based Distro
 
 Use this installation script:
 
-### Add Kali Repo for Debian
+### Add Kali Repo to any Debian based Distro
 
 On a standard, clean install of Debian Distro Based Linux, you should have the following entry present in /etc/apt/sources.list:
 
@@ -49,7 +45,9 @@ deb-src http://http.kali.org/kali kali-rolling main contrib non-free
 
        apt-get clean && apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get install python-pil:i386 -y && apt autoremove -y
        
-### Instal mitmf
+### Instal mitmf & python
+
+      sudo apt-get install python-pip python3-pip python-dev python-setuptools libpcap0.8-dev libnetfilter-queue-dev libssl-dev libjpeg-dev libxml2-dev libxslt1-dev libcapstone3 libcapstone-dev libffi-dev file -y
 
 https://github.com/byt3bl33d3r/MITMf/wiki/Installation
 
