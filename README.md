@@ -47,7 +47,7 @@ deb-src http://http.kali.org/kali kali-rolling main contrib non-free
 
 ### Integrate Kali with Debian
 
-       apt-get clean && apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get install python-pil:i386 -y
+       apt-get clean && apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get install python-pil:i386 -y && apt autoremove -y
        
 ### Instal mitmf
 
