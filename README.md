@@ -52,7 +52,7 @@ https://github.com/4k4xs4pH1r3/FruityWifi/wiki
 
 ### Install FruityWiFi x86/x64 Version
 
-    apt install neofetch screenfetch -y && cd /usr/share/ && wget https://github.com/xtr4nge/FruityWifi/archive/master.zip && unzip master.zip && neofetch && cd FruityWifi-master && python install-modules.py && screenfetch && ./install-FruityWiFi.sh
+    apt install neofetch screenfetch -y && cd /usr/share/ && wget https://github.com/xtr4nge/FruityWifi/archive/master.zip && unzip master.zip && neofetch && cd FruityWifi-master && mv FruityWifi-master fruitywifi && cd /usr/share/fruitywifi/FruityWiFi && cp -rf www conf logs utils /usr/share/fruitywifi/ && cd /usr/share/fruitywifi/ && python install-modules.py && screenfetch && ./install-FruityWiFi.sh
     
 
 Go to **http://localhost:8000** (for http) <br>
