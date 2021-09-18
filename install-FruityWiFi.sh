@@ -7,7 +7,7 @@ version="2.4.2"
 # The chosen version needs to be in the repository
 # --------------------------------------------------------
 #fruitywifi_php_version="PHP7"
-php_version="7.3"
+php_version="7.4"
 # --------------------------------------------------------
 # Setup log path. default=/usr/share/fruitywifi/logs
 # --------------------------------------------------------
@@ -38,17 +38,17 @@ usermod -a -G inet fruitywifi # *****ERROR?!*****
 echo "[fruitywifi user has been created]"
 echo
 
-apt-get -y install gettext make intltool build-essential automake autoconf uuid uuid-dev dos2unix curl sudo unzip lsb-release python-scapy tcpdump python-netifaces python-pip git ntp
+apt-get -y install gettext make intltool build-essential automake autoconf uuid uuid-dev dos2unix curl sudo unzip lsb-release python-scapy tcpdump git ntp
 
 pip install netifaces
 
-#cmd=`gcc --version|grep "4.7"`
+#cmd=`gcc --version|grep "10.3.0"`
 #if [[ $cmd == "" ]]
 #then
 #    echo "--------------------------------"
-#    echo "Installing gcc 4.7" 
+#    echo "Installing gcc 10.3.0" 
 #    echo "--------------------------------"
-	
+
 #    apt-get -y install gcc-4.7
 #    apt-get -y install g++-4.7
 #    update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.7 40 --slave /usr/bin/g++ g++ /usr/bin/g++-4.7
@@ -57,7 +57,7 @@ pip install netifaces
 
 #else
 #    echo "--------------------------------"
-#    echo "gcc 4.7 already installed"
+#    echo "gcc 10.3.0 already installed"
 #    echo "--------------------------------"
 #    echo
 #fi
